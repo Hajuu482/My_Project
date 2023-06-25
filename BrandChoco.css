@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+:root{
+  --black: #1B1722;
+  --white: #F0F0F0;
+  --box-shadow: 0px 4px 4px rgba(0,0,0,0.25)
+}
+
+*{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  translate: 2s linear; 
+}
+
+html{
+  font-size: 65.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: -8rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background-color: var(--white);
+  border-radius: 5rem;
+}
+
+.header{
+  top: 0;left: 0;right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#412b20;
+  position: fixed;
+  padding: 1.4rem 7%;
+  z-index: 999;
+}
+
+ul li{
+  display: inline-block;
+  padding:18px;
+
+}
+
+.header .logoConten{
+  display: flex;
+  align-items: center;
+}
+
+.header .logoConten .logo img{
+ height: 4rem; 
+}
+
+.header .logoConten .logoName{
+  color: #D29D2B;
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+.header .navbar a{
+  font-size: 2rem;
+  color: #D29D2B;
+  font-weight: bold;
+  display: block;
+} 
+
+.header .navbar a:hover{
+  border-bottom:.1rem solid whitesmoke ;
+  padding-bottom: .4rem;
+}
+
+.header .icon  i{
+  font-size: 1.5rem;
+  margin-right: 2.2rem;
+  color: #D29D2B;
+  cursor: pointer;
+}
+
+
+.header .icon i:hover{
+  color: #fffefe;
+  border-bottom:.1rem solid #fffefe; 
+  padding-bottom: .3rem;
+}
+
+
+.header .search {
+  display: none;
+  background-color: transparent;
+  top: 100%;
+  right: 0;
+  margin: 1.5rem 7%;  
+  width: 50%;
+  height: 5rem;
+  position: absolute;  
+}
+
+.header .search input{
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  background-color: var(--white);
+  color: var(--black);
+  margin-right: 7%;
+  padding: 0.5rem 1rem;
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+}
+
+.header .search.active {
+  display: inline-block;
+}
+
+#menu-bar{
+  display: none;
+}
+
+.Brand-chocolate {
+  background-color:whitesmoke ;
+}
+.Home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(image/89.jpeg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.sawiro {
+  gap: 9%;
+  display: grid;
+  grid-template-columns: 400px 250px 250px ;
+  justify-content: center;
+} 
+
+.sawiro img {
+  width: 350px;
+  height: 300px;
+  transition-duration: 1s;
+}
+
+.sawiro img:hover{
+  transform: scale(1.1);
+}
+
+
+.sawiro1 img {
+  margin-left: -60%;
+}
+
+.sawiro2 img{
+  width: 350px;
+  height: 470px;
+}
+
+.sawiro3 img {
+  margin-top: -10%;
+  width: 350px;
+  height: 260px;
+}
+
+.sawiro4 img{
+  width: 726px;
+  height: 460px;
+  margin-left: -60%;
+  margin-top: -85%;
+}
+
+.Brand-chocolate h3{
+  padding-top: 8%;
+  padding-bottom:55px;
+  text-align: center;
+  font-family: "Times New Roman (Headings CS)";
+  font-size: 35px;
+}
+.Our-Gellery {
+  background-color:whitesmoke ;
+}
+
+.sawiroo {
+  gap:2%;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px ;
+  justify-content: center;
+  margin-right: 50px;
+} 
+
+.sawiroo img {
+  width: 350px;
+  height: 300px;
+  transition-duration: 1s;
+}
+
+.sawiroo img:hover{
+  transform: scale(1.1);
+}
+.sawiroo1 img {
+  width: 200px;
+  height: 240px;
+  margin-left: 40px;
+  margin-top: 95px;
+  margin-bottom: 10px;
+}
+
+.sawiroo2 img{
+  width: 230px;
+  height: 280px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.sawiroo3 img {
+  width: 230px;
+  height: 320px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.sawiroo4 img {
+  width: 220px;
+  height: 285px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.sawiroo5 img{
+  width: 180px;
+  height: 210px;
+  margin-left: 40px;
+}
+
+.sawiroo6 img {
+  width: 230px;
+  height: 280px;
+}
+
+.sawiroo7 img{
+  width: 230px;
+  height: 320px;
+  margin-right: 20px;
+}
+
+.sawiroo8 img {
+  width: 260px;
+  height: 285px;
+  margin-left: -20px;
+}
+
+
+
+.Our-Gellery h3{
+  padding-top: 10%;
+  padding-bottom:55px;
+  text-align: center;
+  font-family: "Times New Roman (Headings CS)";
+  font-size: 35px;
+}
+
+.spn {
+  font-size: 30px;
+  text-align: center;
+  background-color: whitesmoke;
+  font-family: "Times New Roman (Headings CS)";
+  font-size: 50px;
+  padding-top: 12%;
+  padding-bottom: 8%;
+}
+
+.client {
+  display:grid;
+  grid-template-columns: 300px 300px 300px;
+  background-color: whitesmoke;
+  gap: 30px;
+  justify-content: center;
+}
+
+.testers img{
+  width: 100px;
+  margin-left: 20%;
+  margin-bottom: 8%;
+  
+}
+
+.testers p {
+  font-size: 14px;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+.fa-solid {
+  color: #8b670c;
+  padding-bottom: 25px;
+}
+
+.ft{
+  background-color:#412b20;
+}
+
+.Contact .box-container{
+  display: flex;
+}
+.Contact .box-container .box{
+  text-align: center;
+  margin-top: 8%;
+  margin-left: 12%;
+}
+
+.Contact .box-container .box i{
+  height: 5rem;
+  width: 5rem;
+  border-radius: 60%;
+  line-height:5rem;
+  font-size: 2rem;
+  background-color: #8b670c;
+  color:var(--white);
+}
+
+.Contact .box-container .box h3{
+  font-size: 2rem;
+  margin:2rem 0;
+  color:var(--white);
+}
+
+.Contact .box-container .box p{
+  font-size: 1.5rem;
+  color:var(--white);
+  text-transform: none;
+  padding: 5px;
+}
+
+.credit{
+  text-align: center;
+  border-top: var(--border);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  color:var(--white);
+  background-color:#412b20;
+}
+
+.credit span{
+  color:#eeba37;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  margin-left: 5%;
+  margin-top: -13%;
+  padding: px;
+  
+}
+
+.social i {
+  padding: 6px;
+}
+
+.social .fa-instagram:hover{
+color: rgb(247, 69, 113);
+}
+.social .fa-facebook:hover{
+color: rgb(0,91,175);
+}
+.social .fa-twitter:hover{
+color: rgb(57,159,255);
+}
+.social .fa-youtube:hover{
+color: rgb(255,34,34);
+}
+
+
+/*Responsive*/
+
+@media (max-width:600px) {
+  
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .header .navbar a{
+    font-size: 1rem;
+  }
+  .header .icon  i{
+    display: none;
+  }
+  .Home {
+    width: 100%;
+  }
+  .contener{
+    display: flex;
+    flex-direction: column;
+  }
+  .sawir img{
+    margin-left: -40%;
+  }
+  .sawiro{
+    display: flex;
+    flex-direction: column; 
+  }
+  .sawiro1 img{
+    width: 100%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+  }
+  .sawiro2 img{
+    width: 100%;
+    margin-left: 7px;
+    margin-bottom: 20px;
+  }
+  .sawiro3 img{
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 7px;
+    margin-bottom: 20px;
+  }
+  .sawiro4 img{
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 7px
+  }
+  .sawiroo {
+    gap: 5rem;
+    display: grid;
+    grid-template-columns: 200px 200px  ;
+  } 
+  
+  .sawiroo img {
+    width:100%
+  }
+  .sawiroo5 img{
+    margin-top:30px;
+  }
+  .sawiroo7 img{
+    margin-left: 20px;
+  }
+  .sawiroo8 img{
+    height: 250px;
+    margin-left: 10px;
+  }
+
+  .spn {
+    margin-top: 15%;
+  }
+  .client{
+    display: grid;
+    grid-template-columns: 300px;
+  }
+  .Contact .box-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px;
+  }
+  .social{
+    display: block;
+    margin-top: 10%;
+  }
+  .social i{
+    padding: 1px;
+  }
+
+  
+}
