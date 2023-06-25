@@ -298,6 +298,9 @@ ul li{
   
 }
 
+.testers img:hover{
+  transform: scale(1.5);
+}
 .testers p {
   font-size: 14px;
   padding-bottom: 30px;

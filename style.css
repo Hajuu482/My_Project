@@ -46,6 +46,8 @@ html::-webkit-scrollbar-thumb{
   justify-content: space-between;
   position: fixed;
   padding: 1.4rem 7%;
+  background-color: #412b20;
+  height: 70px;
   z-index: 999;
 }
 
@@ -136,7 +138,7 @@ color: #F45050;
   background: url(image/69.jpg)no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 
 .Home .home-content{
@@ -431,6 +433,10 @@ color: #F45050;
   
 }
 
+.testers img:hover{
+  transform: scale(1.5);
+}
+
 .testers p {
   font-size: 14px;
   padding-bottom: 30px;
@@ -530,6 +536,7 @@ color: rgb(255,34,34);
     display: flex;
     flex-direction: column;
     width: 100%;
+    position: static;
   }
   .header .navbar a{
     font-size: 1rem;
